@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Forum</title>
+  </head>
+
+  <body class="forum-body">
+    <div class="forum-content-wrapper">
+    <div class="bg-effect">
+      <img class="bg-img" src="Images\forum-background.jpg" alt="">
+    </div>
+    <header class="main-header">
+      
+      <nav class="upper-main-nav container-fluid">
+        <div class="upper-links d-flex justify-content-end">
+          
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Language
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" >English</a></li>
+                <li><a class="dropdown-item" >Romana</a></li>
+              </ul>
+          </div>
+      </nav>
+
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid responsive-part">
+            <img class="title-logo" src="Images\zombit-title.png" alt="site logo">
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgba(13, 102, 32, 0.445);border:2px solid green;outline:none;box-shadow:none">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="forum.html">Forums</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html">Donation Store</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.starstable.com/en/">Gallery</a>
+                </li>
+                <li class="register-log-mobile-btns nav-item d-md-none">
+                  <a class="register-mobile-btn button" href="https://www.starstable.com/en/register">Register</a>
+                  <a class="log-mobile-btn button" href="https://www.starstable.com/en/register">Log In</a>
+                </li>
+              </ul>
+              <a class="register-btn button" href="#">Register</a>
+              <a class="log-btn button" href="#">Log In</a>
+            </div>
+          </div>
+        </nav>
+        <div class="container-fluid ip-container pt-2 pb-2">
+          <div class="prize d-flex justify-content-center">
+          <img style="transform: scaleX(-1);" src="Images\minecraft-zombie-img-removebg-preview.png" alt="">
+           <a class="ip d-flex text-white" href="#" >play.zombitmc.com</a>
+          <img src="Images\minecraft-zombie-img-removebg-preview.png" style="transform: scaleX(1);" alt="">
+          </div>
+        </div>  
+    </header>
+
+    <div class="forum-welcome guest">
+      <div class="guest-info">
+        <h3>Welcome to Zombit.org</h3>
+        <p>Register a free account today to become a member! Once signed in, you'll be able to apply for staff, report a cheater, apply for an unban, as well as connect with other members through your own private inbox!</p>
+        <div class="guest-buttons">
+          <a class="register-btn button" href="#">Register</a>
+          <a class="log-btn button" href="#">Log In</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="social-media-bar">
+      <div class="home-link">
+        <a href="#">Home</a>
+       <span class="arrow right"></span>
+      </div>
+      <div class="social-links">
+        <a aria-label="#" class="facebook text-white" href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a aria-label="#" class="twitter text-white" href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+
+    <section class="main-forum-section">
+      <div class="container-fluid forum-container">
+        <div class="row forum-row"> 
+      
+          <div class="col-lg-8 col-md-12 main-body-content bg-dark">
+
+            <header class="main-body-header">
+              <h1>ZOMBITMC.ORG</h1>
+            </header>
+
+            <div class="forum-item-content">
+
+              <div class="forum-item d-flex">
+                <div class="item-info col-md-5 d-flex flex-column justify-content-center">
+                  <a href="#">Announcements</a>
+                  <p>Announcements related to the minecraft server will be posted here</p>
+                </div>
+                <div class="thread-status d-flex justify-content-around col-md-7">
+                  <div class="thread-number-div d-flex flex-column justify-content-center">
+                    <header>Thread</header>
+                    <div class="thread-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="post-number-div d-flex flex-column justify-content-center">
+                    <header>Posts</header>
+                    <div class="post-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="latest-posts">
+                    <header class="text-center">Latest posts</header>
+                    <div class="body-thread-item">
+                      <div class="thread-author">
+                        <a aria-label="#" href="#" class="user-avatar">
+                          <img src="https://cdn1.iconfinder.com/data/icons/minecraft-2/64/video_game_gaming_minecraft_green_creation_create-512.png" alt="" style="width:40px;border-radius:5px;">
+                        </a>
+                      </div>
+                      <div class="thread-info">
+                        <a href="#" class="post-subject text-light">Regulament STAFF</a>
+                        <a href="#" class="post-username text-warning">Deathwing73</a>
+                      </div>
+                      <div class="thread-date forum-main-post-date  text-secondary">Aug 18, 20</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="forum-item d-flex">
+                <div class="item-info col-md-5 d-flex flex-column justify-content-center">
+                  <a href="#">Announcements</a>
+                  <p>Announcements related to the minecraft server will be posted here</p>
+                </div>
+                <div class="thread-status d-flex justify-content-around col-md-7">
+                  <div class="thread-number-div d-flex flex-column justify-content-center">
+                    <header>Thread</header>
+                    <div class="thread-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="post-number-div d-flex flex-column justify-content-center">
+                    <header>Posts</header>
+                    <div class="post-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="latest-posts">
+                    <header class="text-center">Latest posts</header>
+                    <div class="body-thread-item">
+                      <div class="thread-author">
+                        <a aria-label="#" href="#" class="user-avatar">
+                          <img src="https://cdn1.iconfinder.com/data/icons/minecraft-2/64/video_game_gaming_minecraft_green_creation_create-512.png" alt="" style="width:40px;border-radius:5px;">
+                        </a>
+                      </div>
+                      <div class="thread-info">
+                        <a href="#" class="post-subject text-light">Regulament STAFF</a>
+                        <a href="#" class="post-username text-warning">Deathwing73</a>
+                      </div>
+                      <div class="thread-date forum-main-post-date  text-secondary">Aug 18, 20</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="forum-item d-flex">
+                <div class="item-info col-md-5 d-flex flex-column justify-content-center">
+                  <a href="#">Announcements</a>
+                  <p>Announcements related to the minecraft server will be posted here</p>
+                </div>
+                <div class="thread-status d-flex justify-content-around col-md-7">
+                  <div class="thread-number-div d-flex flex-column justify-content-center">
+                    <header>Thread</header>
+                    <div class="thread-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="post-number-div d-flex flex-column justify-content-center">
+                    <header>Posts</header>
+                    <div class="post-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="latest-posts">
+                    <header class="text-center">Latest posts</header>
+                    <div class="body-thread-item">
+                      <div class="thread-author">
+                        <a aria-label="#" href="#" class="user-avatar">
+                          <img src="https://cdn1.iconfinder.com/data/icons/minecraft-2/64/video_game_gaming_minecraft_green_creation_create-512.png" alt="" style="width:40px;border-radius:5px;">
+                        </a>
+                      </div>
+                      <div class="thread-info">
+                        <a href="#" class="post-subject text-light">Regulament STAFF</a>
+                        <a href="#" class="post-username text-warning">Deathwing73</a>
+                      </div>
+                      <div class="thread-date forum-main-post-date  text-secondary">Aug 18, 20</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="forum-item d-flex">
+                <div class="item-info col-md-5 d-flex flex-column justify-content-center">
+                  <a href="#">Announcements</a>
+                  <p>Announcements related to the minecraft server will be posted here</p>
+                </div>
+                <div class="thread-status d-flex justify-content-around col-md-7">
+                  <div class="thread-number-div d-flex flex-column justify-content-center">
+                    <header>Thread</header>
+                    <div class="thread-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="post-number-div d-flex flex-column justify-content-center">
+                    <header>Posts</header>
+                    <div class="post-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="latest-posts">
+                    <header class="text-center">Latest posts</header>
+                    <div class="body-thread-item">
+                      <div class="thread-author">
+                        <a aria-label="#" href="#" class="user-avatar">
+                          <img src="https://cdn1.iconfinder.com/data/icons/minecraft-2/64/video_game_gaming_minecraft_green_creation_create-512.png" alt="" style="width:40px;border-radius:5px;">
+                        </a>
+                      </div>
+                      <div class="thread-info">
+                        <a href="#" class="post-subject text-light">Regulament STAFF</a>
+                        <a href="#" class="post-username text-warning">Deathwing73</a>
+                      </div>
+                      <div class="thread-date forum-main-post-date  text-secondary">Aug 18, 20</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="forum-item d-flex">
+                <div class="item-info col-md-5 d-flex flex-column justify-content-center">
+                  <a href="#">Announcements</a>
+                  <p>Announcements related to the minecraft server will be posted here</p>
+                </div>
+                <div class="thread-status d-flex justify-content-around col-md-7">
+                  <div class="thread-number-div d-flex flex-column justify-content-center">
+                    <header>Thread</header>
+                    <div class="thread-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="post-number-div d-flex flex-column justify-content-center">
+                    <header>Posts</header>
+                    <div class="post-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="latest-posts">
+                    <header class="text-center">Latest posts</header>
+                    <div class="body-thread-item">
+                      <div class="thread-author">
+                        <a aria-label="#" href="#" class="user-avatar">
+                          <img src="https://cdn1.iconfinder.com/data/icons/minecraft-2/64/video_game_gaming_minecraft_green_creation_create-512.png" alt="" style="width:40px;border-radius:5px;">
+                        </a>
+                      </div>
+                      <div class="thread-info">
+                        <a href="#" class="post-subject text-light">Regulament STAFF</a>
+                        <a href="#" class="post-username text-warning">Deathwing73</a>
+                      </div>
+                      <div class="thread-date forum-main-post-date  text-secondary">Aug 18, 20</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="forum-item d-flex">
+                <div class="item-info col-md-5 d-flex flex-column justify-content-center">
+                  <a href="#">Announcements</a>
+                  <p>Announcements related to the minecraft server will be posted here</p>
+                </div>
+                <div class="thread-status d-flex justify-content-around col-md-7">
+                  <div class="thread-number-div d-flex flex-column justify-content-center">
+                    <header>Thread</header>
+                    <div class="thread-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="post-number-div d-flex flex-column justify-content-center">
+                    <header>Posts</header>
+                    <div class="post-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="latest-posts">
+                    <header class="text-center">Latest posts</header>
+                    <div class="body-thread-item">
+                      <div class="thread-author">
+                        <a aria-label="#" href="#" class="user-avatar">
+                          <img src="https://cdn1.iconfinder.com/data/icons/minecraft-2/64/video_game_gaming_minecraft_green_creation_create-512.png" alt="" style="width:40px;border-radius:5px;">
+                        </a>
+                      </div>
+                      <div class="thread-info">
+                        <a href="#" class="post-subject text-light">Regulament STAFF</a>
+                        <a href="#" class="post-username text-warning">Deathwing73</a>
+                      </div>
+                      <div class="thread-date forum-main-post-date  text-secondary">Aug 18, 20</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="forum-item d-flex">
+                <div class="item-info col-md-5 d-flex flex-column justify-content-center">
+                  <a href="#">Announcements</a>
+                  <p>Announcements related to the minecraft server will be posted here</p>
+                </div>
+                <div class="thread-status d-flex justify-content-around col-md-7">
+                  <div class="thread-number-div d-flex flex-column justify-content-center">
+                    <header>Thread</header>
+                    <div class="thread-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="post-number-div d-flex flex-column justify-content-center">
+                    <header>Posts</header>
+                    <div class="post-number text-center"><span>00</span></div>
+                  </div>
+                  <div class="latest-posts">
+                    <header class="text-center">Latest posts</header>
+                    <div class="body-thread-item">
+                      <div class="thread-author">
+                        <a aria-label="#" href="#" class="user-avatar">
+                          <img src="https://cdn1.iconfinder.com/data/icons/minecraft-2/64/video_game_gaming_minecraft_green_creation_create-512.png" alt="" style="width:40px;border-radius:5px;">
+                        </a>
+                      </div>
+                      <div class="thread-info">
+                        <a href="#" class="post-subject text-light">Regulament STAFF</a>
+                        <a href="#" class="post-username text-warning">Deathwing73</a>
+                      </div>
+                      <div class="thread-date forum-main-post-date  text-secondary">Aug 18, 20</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      
+          <div class="col-lg-3 main-forum-sidebar bg-dark">
+
+            <div id="scrollbar-style" class="forum-thread-sidebar-content">
+            <header class="forum-sidebar-header">
+              <h3>LATEST THREADS</h3>
+            </header>
+
+              <div class="sidebar-thread-item">
+                <div class="thread-author">
+                  <a aria-label="#" href="#" class="user-avatar">
+                    <img src="https://cdn1.iconfinder.com/data/icons/minecraft-2/64/video_game_gaming_minecraft_green_creation_create-512.png" alt="" style="width:40px;border-radius:5px;">
+                  </a>
+                </div>
+                <div class="thread-info">
+                  <a href="#" class="thread-subject text-light">
+                    Cerere unban, WolfyRobert</a>
+                  <a href="#" class="username text-warning">Deathwing73</a>
+                  <a href="#" class="thread-type text-info">Cereri unban</a>
+                </div>
+                <div class="thread-date text-secondary">date</div>
+              </div>
+            </div>
+
+            <div class="forum-top-posters-sidebar-content">
+
+              <header class="forum-sidebar-header">
+                <h3>TOP POSTERS</h3>
+              </header>
+
+              <div class="sidebar-top-poster-item">
+                <div class="thread-author">
+                  <a aria-label="#" href="#" class="user-avatar">
+                    <img src="https://cdn1.iconfinder.com/data/icons/minecraft-2/64/video_game_gaming_minecraft_green_creation_create-512.png" alt="" style="width:40px;border-radius:5px;">
+                  </a>
+                </div>
+                <div class="thread-info">
+                  <a href="#" class="username text-warning">Deathwing73</a>
+                </div>
+                <div class="post-number text-white"><span>00</span> Posts</div>
+              </div>
+
+            </div>
+
+          </div>
+          
+      
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+    
+      <!-- Footer Links -->
+      <div class="container">
+    
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+    
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!">Contact us</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!">Terms and rules</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!">Privacy policy</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!">Help</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-2 mb-3">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!">Home</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+    
+        </div>
+        <!-- Grid row-->
+        <hr class="rgba-white-light" style="margin: 0 15%;">
+    
+        <!-- Grid row-->
+        <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+    
+          <!-- Grid column -->
+          <div class="col-md-8 col-12 mt-5">
+            <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem
+              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+              explicabo.
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+          </div>
+          <!-- Grid column -->
+    
+        </div>
+        <!-- Grid row-->
+        <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+    
+        <!-- Grid row-->
+        <div class="row pb-3">
+    
+          <!-- Grid column -->
+          <div class="col-md-12">
+    
+            <div class="mb-5 d-flex justify-content-center footer-links">
+    
+              <!-- Facebook -->
+              <a class="fb-ic">
+                <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic">
+                <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+              </a>
+              <!-- Google +-->
+              <a class="gplus-ic">
+                <i class="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
+              </a>
+              <!--Linkedin -->
+              <a class="li-ic">
+                <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic">
+                <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+              </a>
+              <!--Pinterest-->
+              <a class="pin-ic">
+                <i class="fab fa-pinterest fa-lg white-text"> </i>
+              </a>
+    
+            </div>
+    
+          </div>
+          <!-- Grid column -->
+    
+        </div>
+        <!-- Grid row-->
+    
+      </div>
+      <!-- Footer Links -->
+    
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3"><span>© 2022 Copyright:</span>
+        <a href="#">Wardinul</a>
+      </div>
+      <!-- Copyright -->
+    
+    </footer>
+    <!-- Footer -->
+
+  </div>
+</body>
+
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
